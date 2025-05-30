@@ -11,7 +11,7 @@ const Profilepage = () => {
 
   const handlesubmit=async(e)=>{
     e.preventDefault();
-    navigate('/');
+    navigate('/chat-app/');
   }
 
   return (

@@ -5,7 +5,7 @@ import Loginpage from './pages/Loginpage'
 import Profilepage from './pages/Profilepage'
 const App = () => {
   return (
-    <div className="bg-[url('./src/assets/bgImage.svg')] bg-contain">
+    <div className="bg-[url('./assets/bgImage.svg')] bg-contain">
       <Routes>
         <Route path='/chat-app/' element={<Homepage/> }/>
         <Route path='/login' element={<Loginpage/> }/>

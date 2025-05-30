@@ -23,7 +23,7 @@ const Loginpage = () => {
     event.preventDefault();
 
     if (currstate === 'Login') {
-      navigate('/');
+      navigate('/chat-app/');
     }
 
     if (currstate === 'Sign Up') {
