@@ -93,7 +93,7 @@ export const messagesDummyData = [
         "_id": "680f5726f10f3cd28382f0b1",
         "senderId": "680f50e4f10f3cd28382ecf9",
         "receiverId": "680f5116f10f3cd28382ed02",
-        "text": "Certainly, Alison. The application is a full-stack real-time chat platform. For the frontend, we are utilizing React with Vite as the build tool to optimize performance, along with Tailwind CSS for efficient styling. On the backend, Django serves as our API framework, and MongoDB is used as the database.",
+        "text": "Certainly, ${selecteduser.fullName}. The application is a full-stack real-time chat platform. For the frontend, we are utilizing React with Vite as the build tool to optimize performance, along with Tailwind CSS for efficient styling. On the backend, Django serves as our API framework, and MongoDB is used as the database.",
         "seen": true,
         "createdAt": "2025-04-28T10:23:34.520Z",
     },
