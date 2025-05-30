@@ -6,8 +6,8 @@ const Profilepage = () => {
 
   const [selectedimg,setselectedimg]=useState(null)
   const navigate=useNavigate();
-  const [name,setname]=useState("User")
-  const [bio,setbio]=useState('Hi Everyone, I am using Sassy chat')
+  const [name,setname]=useState("Sai")
+  const [bio,setbio]=useState("Hi Everyone, I am using QuickChat")
 
   const handlesubmit=async(e)=>{
     e.preventDefault();
