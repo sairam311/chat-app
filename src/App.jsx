@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="bg-[url('./assets/bgImage.svg')] bg-contain">
       <Routes>
-        <Route path='/chat-app/' element={<Homepage/> }/>
+        <Route path='/' element={<Homepage/> }/>
         <Route path='/login' element={<Loginpage/> }/>
         <Route path='/profile' element={<Profilepage/> }/>
       </Routes>
