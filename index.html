@@ -13,11 +13,8 @@
           var decoded = l.search.slice(1).split('&').map(function(s) { 
             return s.replace(/~and~/g, '&')
           }).join('?');
-          // Remove trailing slash from pathname to avoid double slash
-          var pathname = l.pathname.replace(/\/$/, '');
-          window.history.replaceState(null, null,
-              pathname + decoded + l.hash
-          );
+          var cleanPath = l.pathname.replace(/\/$/, '') + decoded;
+          window.history.replaceState(null, null, cleanPath + l.hash);
         }
       }(window.location))
     </script>
